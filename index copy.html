@@ -73,7 +73,52 @@ body {
         </div>
       </nav>
       <main>
-        
+        <div class="table">
+          <h1>data Peminjaman</h1>
+          <form action="" method="post">
+
+              <table border="1" cellpadding="10" cellspacing="0"">
+
+                  <tr>
+                      <th>no.</th>
+                      <th>username </th>
+                      <th>Waktu </th>
+                      <th>playstasion</th>
+                      <th>harga</th>
+                      <th>tombol</th>
+                  </tr>
+
+                  <?php $i = 1; ?>
+                  <?php foreach ($users as $row): ?>
+                      <tr>
+                          <td>
+                              <?= $i; ?>
+                          </td>
+                          <td>
+                              <?= $row["username"]; ?>
+                          </td>
+                          <td>
+                              <?= $row["waktu_peminjaman"]; ?>
+                          </td>
+                          <td>
+                              <?= $row["ps"]; ?>
+                          </td>
+                          <td>
+                              <?= $row["harga"]; ?>
+                          </td>
+                          <td>
+                              <a href="">ubah</a> |
+                              <a href="" onclick="">hapus</a>
+                          </td>
+                      </tr>
+                      <?php $i++; ?>
+                  <?php endforeach; ?>
+
+              </table>
+          </form>
+
+      </div>
+
         <!-- <div class="main__container">
           <div class="main__title">
             <img src="assets/hello.svg" alt="" />

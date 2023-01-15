@@ -1,7 +1,7 @@
 <?php
 use LDAP\Result;
 
-$db = mysqli_connect("localhost", "root", "", "rental");
+// $db = mysqli_connect("localhost", "root", "", "rental");
 
 
 function query($query)
