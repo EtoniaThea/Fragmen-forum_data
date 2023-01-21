@@ -33,22 +33,6 @@ h1 {
     margin: 10px 0 15px 0;
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-
 .btn{
     width: 49%;
     padding: 10px;
@@ -57,4 +41,8 @@ table {
     background-color: #30475e;
     font-size: 18px;
     color: #fff;
+    margin-top: 20px;
+}
+.inputBox {
+    padding-top: 20px;
 }

@@ -92,7 +92,7 @@ if (isset($_POST["submit"])) {
         <div id="sidebar">
             <div class="sidebar__title">
                 <div class="sidebar__img">
-                    <img src="assets/logo.png" alt="logo" />
+                    <img src="/img/Logo.png" alt="logo" />
                     <h1>DevQueen</h1>
                 </div>
                 <i onclick="closeSidebar()" class="fa fa-times" id="sidebarIcon" aria-hidden="true"></i>
